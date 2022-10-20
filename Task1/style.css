@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-rows: 50px 300px 50px;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+    gap: 20px;
+}
+
+header, main, footer {
+    border: 5px;
+    border-color: red;
+    border-style: groove;
+}
+

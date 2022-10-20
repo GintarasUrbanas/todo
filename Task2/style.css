@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px 900px;
+    gap: 20px;
+}
+
+main, section {
+    border: 5px;
+    border-color: red;
+    border-style: groove;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
